@@ -40,7 +40,6 @@ mdc: true
 3. Writing Better Prompts
 4. Troubleshooting
 5. Studying with AI
-6. Even More Use Cases
 
 ---
 layout: section
@@ -145,7 +144,7 @@ layout: section
 
 ## LLM
 
-- **Large Language Model**: An AI model trained on massive amounts of text data (basically all of the internet).
+- **Large Language Model**: An AI model trained on massive amounts of text data from books, websites, and other sources.
 - Learns patterns in language: grammar, facts, reasoning, and even coding patterns.
 
 ---
@@ -207,6 +206,26 @@ I am a beginning Software Development student learning Java
 - In chats:
   - Settings Icon \>\> Use style -> Learning
   - Web search -> active
+
+---
+
+## ⚠️ Important: Data Privacy and Security
+
+When using AI tools, be aware:
+
+### [What NOT to share:]{.block .mt-1em}
+
+- Personal information (addresses, phone numbers, ID numbers)
+- Sensitive data from internships or work
+- Code from group projects (without permission from teammates)
+- Proprietary or confidential information
+
+### [Remember:]{.block .mt-1em}
+
+- AI systems log your conversations
+- Your data may be used to train future models
+- Assume anything you share could become public
+- When in doubt, ask your instructor or supervisor first
 
 ---
 layout: section
@@ -305,7 +324,7 @@ Please show me:
 
 ---
 
-## Who it's for (Audience)
+## Who It's For (Audience)
 
 For texts or user facing products. Tell the system who the product is for:
 
@@ -336,7 +355,7 @@ For now, I just need:
 
 ## Step by Step (When Needed)
 
-Ask the system to break down complex tasks (most modern (deep) ‘thinking’ models do this for you:
+Ask the system to break down complex tasks (most ‘thinking’ models do this for you):
 
 ```markdown
 Can you help me build this form by:
@@ -502,7 +521,7 @@ layout: section
 ### [How to prevent it:]{.block .mt-1em}
 
 - Tell AI what you've learned: `I only know 'for loops' and 'while loops'`
-- Specify constraints:`Don't use frameworks or libraries we haven't covered`
+- Specify constraints: `Don't use frameworks or libraries we haven't covered`
 - Ask: `Can you solve this using only <specific concepts>?`
 - If AI uses unknown concepts, ask: `Can you do this with simpler techniques?`
 - **Always understand every line before using it❗️**
@@ -565,7 +584,7 @@ layout: section
 - Explicitly ask AI to challenge your assumptions
 - Request: `Tell me if my approach is wrong`
 - Ask: `What are the problems with my solution?`
-- Use phrases like: `Be critical" or "Don't just agree with me`
+- Use phrases like: `Be critical` or `Don't just agree with me`
 
 ---
 layout: section
@@ -577,7 +596,7 @@ class: text-left
 [5.1 Explaining concepts]{.block .text-left}
 [5.2 Explaining code]{.block .text-left}
 [5.3 Fixing Code]{.block .text-left}
-[5.4 Assignments]{.block .text-left}
+[5.4 Programming Assignments]{.block .text-left}
 [5.5 Extra exercises]{.block .text-left}
 [5.6 Checking for understanding]{.block .text-left}
 [5.7 Hardcore Learning Mode: Socratic Learning]{.block .text-left}
@@ -773,7 +792,7 @@ Could you help me debug this by:
 layout: section
 ---
 
-## 5.4 AI for Programming Assignments
+## 5.4 Programming Assignments
 
 ---
 
@@ -1000,9 +1019,9 @@ in logic that you’d normally overlook while thinking silently.
 
 As ChatGPT, I can act as the “rubber duck”:
 
-- I won’t solve the problem for your students.
-- I’ll ask clarifying questions that help them reason through the issue.
-- I’ll encourage them to articulate their intention, assumptions, and understanding of each part of the code.
+- I won’t solve the problem for you.
+- I’ll ask clarifying questions that help you reason through the issue.
+- I’ll encourage you to articulate their intention, assumptions, and understanding of each part of the code.
 
 This helps build independence and problem-solving skills rather than providing answers outright.
 
