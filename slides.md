@@ -465,9 +465,11 @@ You don't need a perfect prompt on the first try!
 
 1. **Start with a basic request** - Get the conversation going
 2. **Review the response** - Does it match what you need?
-3. **Add missing details** - "I should have mentioned I can't use..."
-4. **Ask for adjustments** - "Can you make this simpler?" or "Explain step 3 more"
-5. **Clarify misunderstandings** - "Actually, I meant..." or "That's not quite right..."
+3. **Add missing details** - `I should have mentioned I can't use...`
+4. **Ask for adjustments** - `Can you make this simpler?" or "Explain step 3 more`
+5. **Clarify misunderstandings** - `Actually, I meant...` or `That's not quite right...`
+6. **Ask to do it in another way** - `Can you do this simpler` or `Be more creative` or …
+7. **Ask for different ways upfont** - `Suggest three ways to do this. I will pick the best and then you will do this.`
 
 ### [Remember:]{.block .mt-1em}
 
