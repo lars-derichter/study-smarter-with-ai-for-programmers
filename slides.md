@@ -746,7 +746,7 @@ layout: section
 ```markdown
 Fix this code:
 
-public static int calculateAverage(int[] numbers) {
+public static double calculateAverage(int[] numbers) {
 int sum = 0;
 for (int i = 0; i <= numbers.length; i++) {
 sum += numbers[i];
@@ -771,7 +771,7 @@ return (double) sum / numbers.length;
 I'm learning Java arrays and I'm getting an ArrayIndexOutOfBoundsException with this code.
 I understand arrays and for loops, but I'm not sure what's causing the error.
 
-public static int calculateAverage(int[] numbers) {
+public static double calculateAverage(int[] numbers) {
 int sum = 0;
 for (int i = 0; i <= numbers.length; i++) {
 sum += numbers[i];
