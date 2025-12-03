@@ -599,6 +599,24 @@ layout: section
 
 ## Over-reliance on AI
 
+### Using AI for every task instead of developing your own problem-solving skills
+
+### [Risks:]{.block .mt-1em}
+
+- Your skills don't develop - you stay dependent on AI
+- Can't solve problems during exams or when AI isn't available
+- Miss the learning opportunity that struggle provides
+- Lose confidence in your own abilities
+- Employers expect independent problem-solving skills
+
+### [How to prevent it:]{.block .mt-1em}
+
+- Try solving problems yourself first (at least 15-20 minutes)
+- Use AI as a tutor, not a solution provider
+- Ask AI for hints or guidance, not complete answers
+- Regularly practice coding without AI assistance
+- Set personal rules: "I'll try myself first, then ask for help"
+
 ---
 layout: section
 class: text-left
