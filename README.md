@@ -1,11 +1,6 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Study Smarter with AI (as a Programming Student)
 
-To start the slide show:
+Slideshow for the workshop: Study Smarter with AI (as a Programming Student).
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+Visit: https://lars-derichter.github.io/study-smarter-with-ai-for-programmers/
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
