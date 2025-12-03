@@ -1098,6 +1098,10 @@ Find my [LinkedIn Profile](https://www.linkedin.com/in/larsderichter/)
 
 ---
 
+## Made with [Slidev](https://sli.dev/)
+
+---
+
 ## License
 
 <a href="https://lars-derichter.github.io/learn-with-ai-prg">Study Smarter with AI (as a Programming Student)</a>
