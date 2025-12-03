@@ -228,6 +228,15 @@ When using AI tools, be aware:
 - When in doubt, ask your instructor or supervisor first
 
 ---
+
+## More Considerations
+
+- Ethical
+- Intellectual Property
+- Energy / Environment
+- Economic
+
+---
 layout: section
 ---
 
@@ -585,6 +594,10 @@ layout: section
 - Request: `Tell me if my approach is wrong`
 - Ask: `What are the problems with my solution?`
 - Use phrases like: `Be critical` or `Don't just agree with me`
+
+---
+
+## Over-reliance on AI
 
 ---
 layout: section
