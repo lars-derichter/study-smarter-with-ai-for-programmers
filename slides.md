@@ -2,7 +2,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /cover.png
 # some information about your slides (markdown enabled)
 title: Study Smarter with AI (as a Programming Student)
 info: |
@@ -70,7 +70,7 @@ Zonder moeite te doen, leer je niet bij.
 -->
 
 ---
-layout: image 
+layout: image
 image: /watching-cycling.png
 ---
 
@@ -79,7 +79,7 @@ image: /watching-cycling.png
 […by watching ChatGPT do the work.]{.absolute .bottom-1em .right-1em}
 
 ---
-layout: image 
+layout: image
 image: /muscle-toner.png
 ---
 
@@ -88,7 +88,7 @@ image: /muscle-toner.png
 [but still expect your brain to get stronger]{.absolute .bottom-1em .right-1em}
 
 ---
-layout: image 
+layout: image
 image: /cycling-in-the-rain.png
 ---
 
@@ -99,6 +99,7 @@ image: /cycling-in-the-rain.png
 ---
 
 ## Cognitive offloading:
+
 ### [when we rely on external tools (like AI) to do our thinking for us.]{.block .mt-1em}
 
 - Short-term: Feels efficient, saves time
@@ -108,12 +109,12 @@ image: /cycling-in-the-rain.png
 ### [The key: Use AI as a _training partner_, not a _replacement_ for thinking.]{.block .mt-1em}
 
 ---
-layout: iframe 
+layout: iframe
 url: https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7399510076979601408?compact=1
 ---
 
 ---
-layout: iframe 
+layout: iframe
 url: https://www.linkedin.com/embed/feed/update/urn:li:share:7398424554987065344
 ---
 
@@ -277,7 +278,7 @@ Be specific about what you need:
 
 ❌ Bad: `Make a form`
 
-✅ Good: 
+✅ Good:
 
 ```markdown
 Help me create a simple contact form that:
@@ -425,6 +426,7 @@ I want it to:
 - Be easy to read
 - Be simple to maintain
 ```
+
 ---
 
 ## Keep Improving Your Prompts (~ iterative development)
@@ -464,15 +466,15 @@ You can put your context, the roles you want the system to be etc. there.
 ## Bonus: Ask AI to Improve Your Prompts
 
 ```markdown
-Act as an expert prompt engineer with specialized knowledge of LLM behavior. 
+Act as an expert prompt engineer with specialized knowledge of LLM behavior.
 
-Review and optimize the prompts I provide by: 
+Review and optimize the prompts I provide by:
 Increasing clarity and conciseness
 Preserving all essential instructions and information
 Using direct, specific language that elicits optimal LLM responses
 Improving structure and organization where needed
 
-For each prompt: 
+For each prompt:
 Present the optimized version first
 Explain key improvements and their expected impact on output quality
 Identify any remaining weaknesses or limitations
@@ -487,6 +489,7 @@ layout: section
 ---
 
 ## Answers with Unknown Concepts
+
 ### AI suggests solutions using concepts, libraries, or techniques you haven't learned yet in your course.
 
 ### [Risks:]{.block .mt-1em}
@@ -507,6 +510,7 @@ layout: section
 ---
 
 ## Hallucinations
+
 ### AI confidently presenting false information, non-existent facts, or made-up code as if they were real.
 
 ### [Risks:]{.block .mt-1em}
@@ -527,6 +531,7 @@ layout: section
 ---
 
 ## Context Rot
+
 ### AI "forgets" earlier parts of long conversations and gives inconsistent or contradictory advice.
 
 ### [Risks:]{.block .mt-1em}
@@ -546,6 +551,7 @@ layout: section
 ---
 
 ## Sycophantism
+
 ### AI agreeing with you even when you're wrong, to please you
 
 ### [Risks:]{.block .mt-1em}
@@ -623,7 +629,7 @@ Instead of giving me the complete solution, could you:
 5. Check my understanding by asking me to explain my solution
 ```
 
---- 
+---
 
 ## 5.8 More Ideas for Using AI as Study Help
 
@@ -642,7 +648,7 @@ Instead of giving me the complete solution, could you:
 
 ## Practice
 
-Ask your favourite AI Chat System how it could help you with your programming assignments by rubber ducking. 
+Ask your favourite AI Chat System how it could help you with your programming assignments by rubber ducking.
 
 Ask it for a good prompt to start a rubber ducking session.
 
@@ -658,7 +664,7 @@ layout: section
 
 Contact me at [lars.derichter@thomasmore.be](mailto:lars.derichter@thomasmore.be)
 
-[LinkedIn Profile](https://www.linkedin.com/in/larsderichter/)
+Find my [LinkedIn Profile](https://www.linkedin.com/in/larsderichter/)
 
 ---
 
@@ -666,15 +672,16 @@ Contact me at [lars.derichter@thomasmore.be](mailto:lars.derichter@thomasmore.be
 
 - Comet browser to resurface saved LinkedIn posts on Cognitive offloading
 - ChatGPT for help with configuring [Slidev](https://sli.dev/)
+- ChatGPT for images
 - Claude (Code) as a sparring partner for improving this slideshow (structure and contents) and reformulating some texts
 
 ---
 
 ## License
 
-<a href="https://lars-derichter.github.io/learn-with-ai-prg">Study Smarter with AI (as a Programming Student)</a> 
+<a href="https://lars-derichter.github.io/learn-with-ai-prg">Study Smarter with AI (as a Programming Student)</a>
 
-© 2025 by <a href="https://lars-derichter.github.io/">Lars De Richter</a> 
+© 2025 by <a href="https://lars-derichter.github.io/">Lars De Richter</a>
 
 is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
