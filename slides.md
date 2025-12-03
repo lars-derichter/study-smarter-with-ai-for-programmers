@@ -333,6 +333,11 @@ Please show me:
 
 ---
 
+- ChatGPT: `show the result in a canvas`
+- Claude: `show the result as an artifact`
+
+---
+
 ## Who It's For (Audience)
 
 For texts or user facing products. Tell the system who the product is for:
