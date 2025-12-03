@@ -106,7 +106,7 @@ image: /cycling-in-the-rain.png
 - Long-term: Prevents skill development, reduces problem-solving ability
 - Result: You become dependent on the tool instead of developing expertise
 
-### [The key: Use AI as a _training partner_, not a _replacement_ for thinking.]{.block .mt-1em}
+### [The key: Use AI as a training partner, not a replacement for thinking.]{.block .mt-1em}
 
 ---
 layout: iframe
@@ -266,7 +266,7 @@ writes clean, simple code...
 ```
 
 ```markdown
-Be like a really critical and stern (but just)
+Act like a really critical and stern (but just)
 teacher with expert knowledge of web development...
 ```
 
@@ -503,7 +503,7 @@ layout: section
 
 - Tell AI what you've learned: `I only know 'for loops' and 'while loops'`
 - Specify constraints:`Don't use frameworks or libraries we haven't covered`
-- Ask: `Can you solve this using only \[specific concepts\]?`
+- Ask: `Can you solve this using only <specific concepts>?`
 - If AI uses unknown concepts, ask: `Can you do this with simpler techniques?`
 - **Always understand every line before using it❗️**
 
@@ -699,6 +699,12 @@ Could you help me understand this code by:
 4. Asking me questions to check if I understand each part
 5. Suggesting how I could test my understanding by modifying the pattern
 ```
+
+---
+
+## If it is still not clear
+
+`Explain this code line by line, statement by statement.`
 
 ---
 layout: section
@@ -920,8 +926,7 @@ vs.
 
 ```markdown
 I'm learning CSS layout. Use the Socratic teaching method and instead of telling me how,
-you ask me questions that help me discover
-how to center elements by myself?
+you ask me questions that help me discover how to center elements by myself?
 ```
 
 ---
@@ -971,14 +976,50 @@ Pick something you're learning and:
 - Project planning - Breaking down larger problems into steps
 - Compare approaches - Evaluating different solutions to the same problem
 - Documentation lookup - Finding and understanding API/library usage
+- ...
 
 ---
 
-## Practice
+## Practice: Rubber Ducking
 
 Ask your favourite AI Chat System how it could help you with your programming assignments by rubber ducking.
 
 Ask it for a good prompt to start a rubber ducking session.
+
+---
+
+## Example Output
+
+```markdown {*}{maxHeight: '360px'}
+**What “rubber ducking” means**
+
+_Rubber duck debugging_ (or simply _rubber ducking_) is a problem-solving technique used by programmers:
+you explain your code, line by line, out loud to an inanimate object—traditionally a rubber duck.
+The act of explaining forces you to slow down, articulate assumptions, and notice mistakes or gaps
+in logic that you’d normally overlook while thinking silently.
+
+As ChatGPT, I can act as the “rubber duck”:
+
+- I won’t solve the problem for your students.
+- I’ll ask clarifying questions that help them reason through the issue.
+- I’ll encourage them to articulate their intention, assumptions, and understanding of each part of the code.
+
+This helps build independence and problem-solving skills rather than providing answers outright.
+
+### 🟡 A good prompt to start a rubber-ducking session
+
+> **Rubber Duck Mode:**
+> I want you to act as a rubber duck for debugging my code.
+>
+> - Do _not_ give me the solution directly.
+> - Ask me questions that help me uncover the issue myself.
+> - Encourage me to explain what each part of my code is supposed to do, what I expect to happen,
+>   and what actually happens.
+> - If I make unclear or incorrect assumptions, ask me to clarify or reconsider them without giving
+>   the answer outright.
+>
+> I’ll start by describing my assignment, my goal, and the part of the code I’m stuck on.
+```
 
 ---
 layout: section
