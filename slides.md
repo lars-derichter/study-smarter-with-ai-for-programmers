@@ -459,7 +459,7 @@ I want it to:
 
 ## Keep Improving Your Prompts (~ iterative development)
 
-You don't need a perfect prompt on the first try!
+You don't always need a perfect prompt on the first try!
 
 ### [Start simple, then refine:]{.block .mt-1em}
 
