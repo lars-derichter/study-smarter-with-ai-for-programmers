@@ -587,6 +587,186 @@ class: text-left
 layout: section
 ---
 
+## 5.1 AI for Explaining Concepts
+
+---
+
+## Two Ways to Ask AI to Explain Concepts
+
+### [❌ "Just tell me what it is"]{.block .mt-1em}
+
+### [✅ "Help me understand by building on what I know"]{.block .mt-1em}
+
+---
+
+## [❌ Example: The Wrong Way]{.block .mb-1em}
+
+```markdown
+What is typecasting?
+```
+
+#### [Problems:]{.block .mt-1em}
+
+- You get a generic definition that might be too advanced
+- AI doesn't know what you already understand
+- Explanation might use concepts you haven't learned yet
+- You can't connect new knowledge to existing knowledge
+- No way to check if you actually understood❗️
+
+---
+
+## [✅ Example: The Learning Way]{.block .mb-1em}
+
+```markdown {*}{maxHeight:'360px'}
+I'm learning about data types in Java. I understand primitive types like int and double,
+and I know that variables have specific types.
+
+I have seen the term "typecasting" but I'm not sure what it means or when to use it.
+
+Could you help me understand typecasting by:
+
+1. First asking me what I already know about data types and type compatibility
+2. Then explaining typecasting using simple examples that build on these concepts
+3. Showing me practical examples in code where typecasting is needed
+4. Asking me questions to check if I understand the difference between implicit and explicit casting
+5. Suggesting a small exercise I can try myself to practice the concept
+```
+
+---
+
+## If the concept is still not clear
+
+Tell the AI to:
+
+- `Explain this like I am 12 years old.`
+- `Give me a real life example`
+- `Give me a simple code example`
+- `Break it down step by step`
+- `Connect it to things I already know`
+
+---
+layout: section
+---
+
+## 5.2 AI for Explaining Code
+
+---
+
+## Two Ways to Ask AI to Explain Code
+
+### [❌ "What does this code do?"]{.block .mt-1em}
+
+### [✅ "Help me understand this code step by step"]{.block .mt-1em}
+
+---
+
+## [❌ Example: The Wrong Way]{.block .mb-1em}
+
+```markdown
+What does this code do?
+
+public static boolean isValidEmail(String email) {
+return email.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
+}
+```
+
+#### [Problems:]{.block .mt-1em}
+
+- You get a quick summary but don't understand HOW it works
+- AI might use technical terms you don't know (regex syntax)
+- You can't apply this knowledge to similar problems
+- You won't be able to modify or debug it later
+- You miss the learning opportunity❗️
+
+---
+
+## [✅ Example: The Learning Way]{.block .mb-1em}
+
+```markdown {*}{maxHeight:'360px'}
+I'm learning Java and I found this email validation code online.
+I understand basic String methods like length() and charAt(), but I am still
+learning about regular expressions.
+
+public static boolean isValidEmail(String email) {
+return email.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
+}
+
+Could you help me understand this code by:
+
+1. First explaining what the matches() method does in simple terms
+2. Breaking down the pattern piece by piece (what does ^ mean? what does + mean?)
+3. Showing me what email addresses would pass and fail this validation
+4. Asking me questions to check if I understand each part
+5. Suggesting how I could test my understanding by modifying the pattern
+```
+
+---
+layout: section
+---
+
+## 5.3 AI for Fixing Code
+
+---
+
+## Two Ways to Ask AI to Help Fix Code
+
+### [❌ "Fix this code"]{.block .mt-1em}
+
+### [✅ "Help me debug this problem"]{.block .mt-1em}
+
+---
+
+## [❌ Example: The Wrong Way]{.block .mb-1em}
+
+```markdown
+Fix this code:
+
+public static int calculateAverage(int[] numbers) {
+int sum = 0;
+for (int i = 0; i <= numbers.length; i++) {
+sum += numbers[i];
+}
+return (double) sum / numbers.length;
+}
+```
+
+#### [Problems:]{.block .mt-1em}
+
+- AI just gives you the fixed code without explanation
+- You don't learn to identify the bug yourself
+- You won't recognize this type of error next time
+- You miss developing debugging skills
+- You don't understand WHY it was wrong❗️
+
+---
+
+## [✅ Example: The Learning Way]{.block .mb-1em}
+
+```markdown {*}{maxHeight:'360px'}
+I'm learning Java arrays and I'm getting an ArrayIndexOutOfBoundsException with this code.
+I understand arrays and for loops, but I'm not sure what's causing the error.
+
+public static int calculateAverage(int[] numbers) {
+int sum = 0;
+for (int i = 0; i <= numbers.length; i++) {
+sum += numbers[i];
+}
+return (double) sum / numbers.length;
+}
+
+Could you help me debug this by:
+
+1. First asking me what I think might be wrong (let me try to figure it out)
+2. Giving me hints about which line is causing the problem
+3. Asking me questions about how array indexing works
+4. Explaining why this error happens and how to prevent it in the future
+5. Suggesting how I can test the fix to make sure it works correctly
+```
+
+---
+layout: section
+---
+
 ## 5.4 AI for Programming Assignments
 
 ---
@@ -628,6 +808,154 @@ Instead of giving me the complete solution, could you:
 4. Give me hints if I'm stuck, but don't write the code for me
 5. Check my understanding by asking me to explain my solution
 ```
+
+---
+layout: section
+---
+
+## 5.5 AI for Creating Extra Practice Exercises
+
+---
+
+## Getting More Practice with AI-Generated Exercises
+
+AI can create custom practice exercises that match your course material and current skill level.
+
+### [The key: Be specific about what you're learning and what style of exercises you need.]{.block .mt-1em}
+
+---
+
+## [✅ Example: Good Practice Exercise Request]{.block .mb-1em}
+
+```markdown {*}{maxHeight:'360px'}
+I'm learning about loops and arrays in Java. We just finished a chapter on:
+
+- for loops and while loops
+- one-dimensional arrays
+- finding min/max values in arrays
+- calculating sums and averages
+
+Our course exercises typically:
+
+- Start with a clear problem description
+- Include example input and expected output
+- Focus on one or two concepts at a time
+- Don't require advanced topics we haven't covered yet
+
+Could you create 3 practice exercises similar to what we've been doing?
+Make them progressively harder:
+
+- Exercise 1: Basic (just applying what we learned)
+- Exercise 2: Medium (combining two concepts)
+- Exercise 3: Challenge (requiring some creative thinking)
+
+For each exercise, provide:
+
+- The problem description
+- Example input/output
+- Hints if I get stuck (but don't show me the solution yet)
+```
+
+---
+layout: section
+---
+
+## 5.6 AI for Checking Your Understanding
+
+---
+
+## Using AI to Test If You Really Understand
+
+After learning a concept, use AI to verify your understanding through questions and explanations.
+
+### [The key: Ask AI to quiz you or have you explain concepts back, rather than just re-explaining them.]{.block .mt-1em}
+
+---
+
+## [✅ Example: Good Understanding Check Request]{.block .mb-1em}
+
+```markdown {*}{maxHeight:'360px'}
+I just finished studying instance methods vs class methods in Java. I think I understand the basics:
+
+- When to use static vs non-static methods
+- How to call instance methods vs class methods
+- That instance methods can access instance variables
+- That static methods can't access instance variables directly
+
+Before I move on to the next topic, I want to make sure I really understand this.
+
+Could you help me check my understanding by:
+
+1. Asking me 3-4 questions about instance and class methods (don't give me the answers yet)
+2. After I answer each question, tell me if I'm right or wrong and why
+3. If I get something wrong, ask me follow-up questions to help me figure it out
+4. Give me a small coding scenario and ask me to explain what would happen
+5. At the end, tell me what gaps in my understanding I should work on
+
+Make the questions progressively harder to really test if I understand deeply.
+```
+
+---
+
+## 5.7 Hardcore Learning Mode: Socratic Method
+
+Want to really understand something?
+
+Tell AI:
+
+```markdown
+You are like a Socratic teacher: please don't give me answers right away.
+Instead, ask me questions that help me figure it out myself.
+```
+
+---
+
+### Example: Regular Way
+
+`How do I center something with CSS?`
+
+vs.
+
+### Socratic, Question-Based Learning
+
+```markdown
+I'm learning CSS layout. Use the Socratic teaching method and instead of telling me how,
+you ask me questions that help me discover
+how to center elements by myself?
+```
+
+---
+
+AI might ask:
+
+```markdown
+- What CSS properties do you know for positioning?
+- How does display:flex work?
+- What have you tried so far?
+```
+
+---
+
+### Try It!
+
+Pick something you're learning and:
+
+1. Ask AI to be your question-asking teacher
+2. Try to answer its questions
+3. See what you discover!
+4. How did you feel about this?
+
+(5 minutes)
+
+---
+
+### Why Questions Work Better
+
+- You understand deeper
+- You remember longer
+- You learn to solve problems
+- Learning is more fun
+- You feel more confident (afterwards)
 
 ---
 
